@@ -1,0 +1,347 @@
+* {
+    background-color: black;
+}
+
+.headerNav {
+    background-color: black !important;
+    height: 100px;
+    position: fixed;
+}
+
+.mdl-layout__header-row {
+    height: 100px !important;
+}
+
+.mdl-layout-title {
+    font-size: 30px !important;
+    color: rgb(52, 177, 235);
+}
+
+.mdl-layout-spacer {
+    display: inline;
+    flex-grow: 1 !important;
+}
+
+.iconNav {
+    padding-left: 220px !important;
+}
+
+.mdl-navigation__link :hover {
+    color: rgb(52, 177, 235);
+}
+
+.mdl-navigation :hover {
+    color: rgb(52, 177, 235) !important;
+    cursor: pointer;
+}
+
+.svg-inline--fa.fa-w-12 {
+    width: auto !important;
+}
+
+.svg-inline--fa.fa-w-16 {
+    width: auto !important;
+}
+
+.svg-inline--fa.fa-w-14 {
+    width: auto !important;
+}
+
+.svg-inline--fa.fa-w-18 {
+    width: auto !important;
+}
+
+
+/* Home Slider Section */
+
+.homeSection {
+    background-image: url("https://secureservercdn.net/198.71.233.68/dmw.1ad.myftpupload.com/wp-content/uploads/2017/11/Wizkid-2.jpg?time=1593646095");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    border-top: 3px solid rgb(52, 177, 235);
+    border-bottom: 3px solid rgb(52, 177, 235);
+    margin-bottom: 60px;
+}
+
+.AboutSection {
+    margin: 30%;
+}
+
+.About-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.80)), url("https://s29745.pcdn.co/wp-content/uploads/2019/09/Bonnaroo-Music-Festival-Best-2020-Festivals.jpg.optimal.jpg");
+    background-size: cover;
+    height: 30vh;
+    margin: auto;
+}
+
+
+/*   margin-bottom: 5%;
+        margin-right: 30%;
+        margin-left: -21.5%;
+        margin-top: -12%;  */
+
+.About-header h1 {
+    font-size: 50px;
+    color: rgb(52, 177, 235);
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: lighter;
+    padding-top: 7%;
+    text-align: center;
+}
+
+.About-content p {
+    font-size: 25px;
+    color: whitesmoke;
+    margin-top: 5%;
+    text-align: justify;
+    font-weight: lighter;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.artiste-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.80)), url("https://s29745.pcdn.co/wp-content/uploads/2019/09/Bonnaroo-Music-Festival-Best-2020-Festivals.jpg.optimal.jpg");
+    background-size: cover;
+    height: 30vh;
+    margin: auto;
+}
+
+.artiste-header h1 {
+    font-size: 50px;
+    color: rgb(52, 177, 235);
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: lighter;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.carousel-slider {
+    margin-top: -20px;
+    width: 60vw;
+    height: 70vh;
+    margin-right: 20%;
+    margin-left: -70%;
+}
+
+.carousel .control-dots {
+    margin: auto !important;
+}
+
+.carousel.carousel-slider .control-arrow {
+    background: rgb(0, 5, 10) !important;
+    margin: auto;
+    padding: 15px;
+}
+
+.carousel .thumbs {
+    margin-top: 12%;
+    margin-left: 30%;
+}
+
+.Carousel-section p {
+    color: whitesmoke;
+    padding-top: 4%;
+    font-size: 30px;
+}
+
+.LatestNews {
+    padding-top: 30px;
+}
+
+.LatestNews h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(52, 177, 235);
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.LatestNews hr {
+    margin-bottom: 30px;
+    border: solid 2px rgb(52, 177, 235);
+}
+
+.mdl-cell .mdl-cell--3-col {
+    display: inline-flex !important;
+}
+
+.card-title {
+    color: rgb(52, 177, 235);
+    text-align: center;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.card-text {
+    color: whitesmoke;
+}
+
+.btn-primary {
+    color: white;
+    background-color: rgb(52, 177, 235);
+    margin-left: 30%;
+}
+
+.longButton {
+    width: 60vw;
+    height: 5vh;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    font-size: 20px;
+    margin-left: 13%;
+    border: solid whitesmoke
+}
+
+.Events-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.80)), url("https://s29745.pcdn.co/wp-content/uploads/2019/09/Bonnaroo-Music-Festival-Best-2020-Festivals.jpg.optimal.jpg");
+    background-size: cover;
+    height: 30vh;
+    margin: auto;
+}
+
+.Events-header h1 {
+    font-size: 50px;
+    color: rgb(52, 177, 235);
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: lighter;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.Events-card {
+    background-size: cover;
+    height: 30vh;
+    margin-top: 10% !important;
+    border: 3px solid rgb(52, 177, 235);
+    border-radius: 20px;
+    color: whitesmoke;
+}
+
+.Events-card h3 {
+    background-color: transparent;
+    padding-top: 8%;
+    padding-left: 3%;
+    font-weight: bold;
+}
+
+.Events-card h3 p {
+    font-size: inherit;
+    padding-top: 2%;
+    padding-left: 3%;
+}
+
+.vertical-line {
+    border-left: 3px solid rgb(52, 177, 235);
+    height: 100px;
+    position: absolute;
+    left: 30%;
+    margin-top: 5%;
+}
+
+#left {
+    float: left;
+}
+
+#middle {
+    float: left;
+    margin-left: 15%;
+}
+
+#right {
+    float: right;
+    margin-right: 10%;
+    margin-top: 7%;
+}
+
+.mdl-button {
+    background-color: rgb(52, 177, 235) !important;
+    min-width: 150px !important;
+    height: 50px !important;
+}
+
+.Gallery-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.80)), url("https://s29745.pcdn.co/wp-content/uploads/2019/09/Bonnaroo-Music-Festival-Best-2020-Festivals.jpg.optimal.jpg");
+    background-size: cover;
+    height: 30vh;
+    margin: auto;
+}
+
+.Gallery-header h1 {
+    font-size: 50px;
+    color: rgb(52, 177, 235);
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: lighter;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.Video-Section {
+    margin-top: 7%;
+    margin-left: 20%;
+}
+
+.footer-section hr {
+    width: 100%;
+    border: solid 1px rgb(52, 177, 235);
+    margin-bottom: 2%;
+}
+
+.footer-section p {
+    text-align: center;
+    margin-bottom: 3%;
+    color: whitesmoke;
+}
+
+
+/*        Media Queries      */
+
+@media (max-width: 839px) and (min-width: 480px) {
+    .mdl-button {
+        background-color: rgb(52, 177, 235) !important;
+        min-width: 150px !important;
+        height: 50px !important;
+    }
+    #right {
+        float: left;
+        margin-right: 5%;
+        margin-top: 3%;
+    }
+}
+
+@media (max-width: 479px) {
+    .mdl-button {
+        background-color: rgb(52, 177, 235) !important;
+        min-width: 100px !important;
+        height: 30px !important;
+        margin-top: 5%;
+    }
+    #left {
+        float: left;
+        margin-left: 10%;
+    }
+    #middle {
+        float: left;
+        margin-left: 5%;
+    }
+    #right {
+        float: left;
+        margin-right: 10%;
+    }
+    .Events-card h3 {
+        font-size: 15px;
+        background-color: transparent;
+        padding-top: 15%;
+        padding-left: 3%;
+        font-weight: bold;
+    }
+    .Events-card h3 p {
+        font-size: 15px;
+        font-size: inherit;
+        padding-top: 2%;
+        padding-left: 3%;
+    }
+}
